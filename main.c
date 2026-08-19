@@ -3,10 +3,11 @@
 #include <string.h>
 #include <unistd.h>
 
-#include "display.h"
+#include "prompt.h"
 
 int main() {
 
-    disp_prompt();
+     init_shell_home();
+     disp_prompt();
     return 0;
 }
